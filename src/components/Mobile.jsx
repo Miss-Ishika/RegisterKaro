@@ -6,7 +6,7 @@ import img1 from '../assets/phone1.png'
 
 const Mobile = () => {
   return (
-    <div className='flex bg-gradient-to-l from-[#133d66] via-[#1C4670] to-[#1C4670] py-4 px-8 text-white'>
+    <div className='flex bg-gradient-to-l from-[#133d66] via-[#1C4670] to-[#1C4670] pt-8 px-8 text-white'>
         <div className='md:w-1/2 flex flex-col gap-8 md:px-24 md:py-8'>
             <span className='font-bold text-4xl'>Manage Your Services by your Mobile Phone</span>
             <span className='text-lg text-gray-400'>Download our app to manage and track your services. Our app enables you to stay in touch with our experts and aids you in tracking your progress. </span>
