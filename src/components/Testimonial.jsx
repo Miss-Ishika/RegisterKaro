@@ -59,18 +59,18 @@ const Testimonial = () => {
       <div className=" mx-16 my-8 text-center md:flex items-center justify-between">
         <h1 className="text-4xl font-bold mb-6">What People Say About Us</h1>
         <div className='flex gap-4 justify-center'>
-          <button
+          <div
             onClick={handlePrev}
             className="bg-white text-blue-900 p-3 h-10 w-10 rounded-full items-center justify-center flex hover:bg-yellow-400 hover:text-white hover:border-2"
           >
            <FaChevronLeft className='text-xl'/>
-          </button>
-          <button
+          </div>
+          <div
             onClick={handleNext}
             className="bg-white text-blue-900 p-3 h-10 w-10 rounded-full items-center justify-center flex hover:bg-yellow-400 hover:text-white hover:border-2"
           >
             <FaChevronRight className='text-xl'/>
-          </button>
+          </div>
         </div>
       </div>
 

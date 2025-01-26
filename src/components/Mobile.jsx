@@ -31,8 +31,8 @@ const Mobile = () => {
             </div>
         </div>
         <div className='md:w-1/2 relative'>
-            <img src={img} className='absolute top-[-15px] overflow-hidden right-20'/>
-            <img src={img1} className='absolute top-[186px] overflow-hidden right-[450px]'/>
+            <img src={img} alt='phone' className='absolute top-[-15px] overflow-hidden right-20'/>
+            <img src={img1} alt='phone' className='absolute top-[186px] overflow-hidden right-[450px]'/>
         </div>
     </div>
   )

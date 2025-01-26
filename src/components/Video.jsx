@@ -29,7 +29,7 @@ const Video = () => {
 
         <div className='w-1/2 relative hidden md:block'>
             {/* <div className='relative border-2'> */}
-                <img src={laptop} className='w-[640px] h-[420px] p-16 absolute left-[30px] top-[30px] z-0 '/>
+                <img src={laptop} alt='laptop' className='w-[640px] h-[420px] p-16 absolute left-[30px] top-[30px] z-0 '/>
                 <div className='w-[515px] h-[293px] p-16 absolute left-[94px] top-[94px] z-10 opacity-60 bg-gradient-to-b from-[#0c0e10] to-[#063561]'></div>
                 <FaYoutube className='text-red-600 absolute top-[220px] left-[340px] right-[200px]  text-4xl z-10'/>
             {/* </div> */}

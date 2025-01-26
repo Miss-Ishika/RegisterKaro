@@ -10,7 +10,7 @@ const LeftHero = () => {
         <div className='flex gap-2'>
             <IoIosStar className='text-2xl text-yellow-500'/>
             <span className='font-semibold font-sans'>Google Rating</span>
-            <img src={starts} className='w-[100px]'/>
+            <img src={starts} alt='starts' className='w-[100px]'/>
         </div>
 
         <span className='text-4xl md:text-6xl font-semibold text-black-600-500'>Your trusted partner <br/> for compliance business needs</span>

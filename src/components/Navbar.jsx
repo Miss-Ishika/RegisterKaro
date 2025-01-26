@@ -8,7 +8,7 @@ const Navbar = () => {
     <div>
       <div className='hidden md:block'>
         <div className='flex items-center justify-between py-1 px-16 border-2'>
-          <div><img src={logo}/></div>
+          <div><img src={logo} alt='logo'/></div>
              <div className='flex items-center gap-8 text-md'>
             <ul className='flex items-center gap-8 font-semibold'>
                 <li>Home</li>

@@ -27,7 +27,7 @@ const Banner2 = () => {
             </div>
             </div>
             <div className='w-[380px] md:w-[680px] h-[200px] bg-[#FFA229] rounded-xl absolute bottom-0 md:ml-0 ml-4'></div>
-            <img src={photo} className='w-[680px] h-[350px] rounded-3xl md:rounded-xl z-10 relative p-4 md:p-0'/>
+            <img src={photo} alt='photo' className='w-[680px] h-[350px] rounded-3xl md:rounded-xl z-10 relative p-4 md:p-0'/>
         </div>
     </div>
   )

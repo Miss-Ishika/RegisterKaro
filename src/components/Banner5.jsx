@@ -9,12 +9,12 @@ import img6 from '../assets/zoom.png'
 const Banner5 = () => {
   return (
     <div className='md:flex py-20 px-28 items-center justify-between'>
-        <img src={img1} className='h-[40px] my-8'/>
-        <img src={img2} className='h-[40px] my-8'/>
-        <img src={img3} className='h-[40px] my-8'/>
-        <img src={img4} className='h-[40px] my-8'/>
-        <img src={img5} className='h-[40px] my-8 '/>
-        <img src={img6} className='h-[40px] my-8'/>
+        <img src={img1} alt='coinbase' className='h-[40px] my-8'/>
+        <img src={img2} alt='spotify' className='h-[40px] my-8'/>
+        <img src={img3} alt='slack' className='h-[40px] my-8'/>
+        <img src={img4} alt='drop' className='h-[40px] my-8'/>
+        <img src={img5} alt='web' className='h-[40px] my-8 '/>
+        <img src={img6} alt='zoom' className='h-[40px] my-8'/>
     </div>
   )
 }
