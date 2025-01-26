@@ -1,0 +1,7 @@
+body {
+  margin: 0; /* Removes any default margins */
+  padding: 0; /* Removes any default padding */
+  width: 100%; /* Ensures the body spans the full width */
+  box-sizing: border-box; /* Includes padding and border in the width */
+  overflow-x: hidden;
+}
