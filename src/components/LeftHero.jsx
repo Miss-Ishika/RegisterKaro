@@ -21,7 +21,7 @@ const LeftHero = () => {
         <div className='md:flex md:gap-8'>
           {data.map((item) => (
             <div className='flex gap-4'>
-              <img src={item.icon} className='w-[60px] h-[50px]'/>
+              <img src={item.icon} alt='icon' className='w-[60px] h-[50px]'/>
               <div className='flex flex-col gap-2 text-'>
                 <span className='font-bold text-4xl bg-gradient-to-br from-yellow-500  to-blue-900 text-transparent bg-clip-text'>{item.archieve}</span>
                 <span>{item.desc}</span>

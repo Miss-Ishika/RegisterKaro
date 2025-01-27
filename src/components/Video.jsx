@@ -36,7 +36,7 @@ const Video = () => {
         </div>
         <div className='relative md:hidden p-8'>
             
-                <img src={laptop} className='w-[350px] h-[200px] z-0'/>
+                <img src={laptop} alt='laptop' className='w-[350px] h-[200px] z-0'/>
                 {/* <div className='z-10 opacity-60 bg-gradient-to-b from-[#0c0e10] to-[#063561]'></div> */}
                 <FaYoutube className='text-red-600 absolute top-[120px] left-[200px] text-4xl z-10'/>
             
