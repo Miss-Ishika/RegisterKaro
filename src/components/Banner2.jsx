@@ -5,7 +5,7 @@ import photo from '../assets/grouPhoto.jfif'
 const Banner2 = () => {
   return (
     <div className='w-full md:flex gap-0 my-8'>
-        <div className='w-full md:w-1/2 flex flex-col gap-4 my-4 px-0 md:ml-24 md:mr-16'>
+        <div className='w-full md:w-1/2 flex flex-col gap-4 my-4 px-4 md:ml-24 md:mr-16'>
             <div className='font-semibold text-[#FFA229] text-center md:text-left'>WELCOME TO REGISTERKARO.IN</div>
             <div className='text-4xl font-bold text-[#272D37] text-center md:text-left'>About <span className='text-[#FFA229]'>Register Karo</span></div>
             <div className='text-[#0D1216] text-[16px] font-semibold'>We have been using Intelegencia as our DevOps vendor for our field service applications over the last couple of years and I’m extremely pleased with
