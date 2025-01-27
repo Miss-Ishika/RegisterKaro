@@ -18,7 +18,7 @@ const Banner2 = () => {
         </div>
 
         <div className='w-full h-[340px] md:w-1/2 md:h-[355px] my-4  relative'>
-            <div className='hidden md:block h-[400px] w-[400px] rounded-full absolute right-[-250px] bg-[#FFA229]'></div>
+            <div className='hidden md:block h-[400px] w-[400px] rounded-full absolute right-[-350px] bg-[#FFA229]'></div>
             <div className='hidden md:block'>
             <div className='text-6xl text-[#FFA229] flex flex-col gap-[-40px] absolute right-0 bottom-0 z-0'>
                 <div>::::::::::::::::::</div>
