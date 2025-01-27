@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='flex flex-col items-center justify-between gap-4 py-4'>
-            <button className='w-12 h-12 rounded-full text-white bg-[#FFA229] flex items-center text-2xl justify-center'><FaArrowUp /></button>
+            <div className='w-12 h-12 rounded-full text-white bg-[#FFA229] flex items-center text-2xl justify-center'><FaArrowUp /></div>
             <span className='flex items-center gap-2 text-white'><FaRegCopyright/> 2024 Registerkaro. All Rights Reserved.</span>
         </div>
     </div>
