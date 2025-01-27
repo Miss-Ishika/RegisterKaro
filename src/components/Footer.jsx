@@ -36,7 +36,7 @@ const data = [
 const Footer = () => {
   return (
     <div className='bg-[#011B5B] text-white flex flex-col gap-2 py-8'>
-        <div className='text-center p-8 md:text-left md:flex md:py-16 md:mx-24 md:justify-between '>
+        <div className='text-center py-8 px-2 md:text-left md:flex gap-16 md:py-16 md:mx-24 md:justify-between '>
             <div className='mb-16 md:mb-0 md:w-1/4 flex flex-col gap-4'>
                 <span className='text-lg'>Design outstanding interfaces with advanced Figma features in a matter of minutes.</span>
                 <div className='justify-center md:justify-normal flex gap-4 text-2xl'>

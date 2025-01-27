@@ -19,8 +19,8 @@ const Queries = () => {
           className="flex items-center justify-between border border-gray-300 rounded-lg shadow-lg hover:shadow-md"
         >
           <div className='flex gap-8 items-center'>
-          <div className='w-2 h-16 rounded-l-lg bg-gradient-to-t from-blue-900 to-yellow-500'></div>
-          <span className="text-gray-800 text-lg font-semibold py-4">{question}</span>
+            <div className='w-4 md:w-2 h-24 md:h-16 rounded-l-lg bg-gradient-to-t from-blue-900 to-yellow-500'></div>
+            <span className="text-gray-800 text-lg font-semibold py-4">{question}</span>
           </div>
         <FaChevronRight className='text-2xl mr-8 text-slate-600'/>
         </div>
